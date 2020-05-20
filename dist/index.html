@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<!-- font-family from google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<!-- font awesome cdn link -->
+	<script src="https://kit.fontawesome.com/2e7ff3d1bc.js" crossorigin="anonymous"></script>
+
+	<!-- my style sheets -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- for mobile menu sidebar-->
+	<div class="responsivesidebar">
+		<div>
+			<span id="pageName">home</span>
+			<span id="mobileMenuicon"><i class="fas fa-bars"></i></span>
+		</div>
+	</div>
+
+	<div class="sidebar">
+			<div class="myImage">
+				<img src="image/profilepic.png" alt="My Image">
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="#" id="home" class="menu menuActive">home</a></li>
+					<li><a href="#" id="about" class="menu">about</a></li>
+					<li><a href="#" id="services" class="menu">works</a></li>
+					<li><a href="#" id="portfolio" class="menu">portfolio</a></li>
+					<li><a href="#" id="testimonials" class="menu">blog</a></li>
+					<li><a href="#" id="contact" class="menu">message</a></li>
+				</ul>
+			</div>
+			<div class="social-icons">
+				<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+				<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+			</div>
+	</div>
+
+	<main class="container">
+		<!-- home page -->
+		<section class="home page displayPage" id="homePage">
+			<div>
+				<h1>welcome to future</h1>
+				<p>This Webpage Is Made With HTML CSS SCSS JACASCRIPT</p>
+			</div>
+		</section>
+
+		<!-- about page -->
+		<section class="about page" id="aboutPage">
+			<header>
+				<h1><span><i class="fas fa-book-open"></i></span> about us</h1>
+			</header>
+			<main>
+				<div class="somewordaboutus">
+					<h3>some words</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laudantium dolor nisi adipisci doloremque provident quod quia, atque, beatae blanditiis excepturi minus natus soluta in ipsum optio ab? Similique, eosin ipsum optio ab? Similique, eos.</p>
+				</div>
+				<div class="ourteam">
+					<header>
+						<h2>our team</h2>
+					</header>
+					<div class="teamContainer">
+						<div class="teammember">
+							<div class="memberImage">
+								<img src="image/malemember.png" alt="This is our team member">
+							</div>
+							<div class="memberDetails">
+								<h4>Jhon Doe</h4>
+								<p>Member Expertise</p>
+								<button>Details</button>
+							</div>
+						</div>
+						<div class="teammember">
+							<div class="memberImage">
+								<img src="image/femalemember.png" alt="this is our team member">
+							</div>
+							<div class="memberDetails">
+								<h4>Jane Smith</h4>
+								<p>Member Expertise</p>
+								<button>Details</button>
+							</div>
+						</div>
+						<div class="teammember">
+							<div class="memberImage">
+								<img src="image/malemember.png" alt="This is our team member">
+							</div>
+							<div class="memberDetails">
+								<h4>Jhon Doe</h4>
+								<p>Member Expertise</p>
+								<button>Details</button>
+							</div>
+						</div>
+						<div class="teammember">
+							<div class="memberImage">
+								<img src="image/femalemember.png" alt="This is our team member">
+							</div>
+							<div class="memberDetails">
+								<h4>Jane Smith</h4>
+								<p>Member Expertise</p>
+								<button>Details</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="ourcustomers">
+					<header>
+						<h2>our clints</h2>
+					</header>
+					<div class="customer">
+						<figure>
+							<img src="image/servicecamera.png" alt="Customer company logo">
+						</figure>
+						<figure>
+							<img src="image/servicecamera.png" alt="Customer company logo">
+						</figure>
+						<figure>
+							<img src="image/servicecamera.png" alt="Customer company logo">
+						</figure>
+						<figure>
+							<img src="image/servicecamera.png" alt="Customer company logo">
+						</figure>
+					</div>
+				</section>
+				<section class="testimonials">
+					<header>
+						<h2>Testimonials</h2>
+					</header>
+					<div class="testimonialscontainer">
+						<!-- testimonials slider button -->
+						<span id="left" class="btn"><i class="fas fa-chevron-left"></i></span>
+						<span id="right" class="btn"><i class="fas fa-chevron-right"></i></span>
+						<div class="alltestimonials">
+							<!-- testimonials slider section -->
+						<div class="testimonialofclint">
+							<h5><i class="fas fa-quote-right"></i></h5>
+							<div class="testimonialdetails">
+								<div class="clintImg">
+									<img src="image/malemember.png" alt="clint img">
+								</div>
+								<div class="testimonialstext">
+									<h5>Jhon Doe</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga reprehenderit ut beatae labore</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonialofclint">
+							<h5><i class="fas fa-quote-right"></i></h5>
+							<div class="testimonialdetails">
+								<div class="clintImg">
+									<img src="image/femalemember.png" alt="clint img">
+								</div>
+								<div class="testimonialstext">
+									<h5>Jane Smith</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga reprehenderit ut beatae labore</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonialofclint">
+							<h5><i class="fas fa-quote-right"></i></h5>
+							<div class="testimonialdetails">
+								<div class="clintImg">
+									<img src="image/femalemember.png" alt="clint img">
+								</div>
+								<div class="testimonialstext">
+									<h5>Ethan Hunt</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga reprehenderit ut beatae labore</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonialofclint">
+							<h5><i class="fas fa-quote-right"></i></h5>
+							<div class="testimonialdetails">
+								<div class="clintImg">
+									<img src="image/malemember.png" alt="clint img">
+								</div>
+								<div class="testimonialstext">
+									<h5>Hello World</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga reprehenderit ut beatae labore</p>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</section>
+
+		<!-- servicess page -->
+		<section class="service page" id="servicesPage">
+			<header>
+				<h1>welcome to service</h1>
+			</header>
+		</section>
+
+		<!-- portfolio page -->
+		<section class="portfolio page" id="portfolioPage">
+			<header>
+				<h1>welcome to portfolio</h1>
+			</header>
+		</section>
+		<!-- testimonials page -->
+		<section class="testimonials page" id="testimonialsPage">
+			<header>
+				<h1>welcome to testimonials</h1>
+			</header>
+		</section>
+		<!-- contact page -->
+		<section class="contact page" id="contactPage">
+			<header>
+				<h1>welcome to contact</h1>
+			</header>
+		</section>
+	</main>
+
+
+
+
+
+
+
+	
+	<script src="js/javascript.js"></script>
+	
+</body>
+</html>

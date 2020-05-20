@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $primary-background;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    position: relative;
+    .page {
+        display: none;
+    }
+    // pages active class and animation
+    .displayPage {
+        position: absolute;
+        display: block;
+        animation: pageslide 0.5s 1;
+        padding: 0 20px;
+        color: #ffffff;
+        width: 100%;
+    }
+    @keyframes pageslide {
+        from {
+            left: 100%;
+            right: 0;
+        }
+        to {
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+// some golabal style
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h5 {
+    font-weight: 100;
+}
+p {
+    font-size: large;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+button {
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .displayPage {
+        margin-top: 72px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        text-align: center;
+        letter-spacing: 0;
+        font-size: 19px;
+    }
+}
