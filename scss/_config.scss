@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+input, textarea {
+    outline: none;
+}
+
 .container {
     width: 80%;
     margin-left: auto;

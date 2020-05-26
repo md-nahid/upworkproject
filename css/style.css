@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+input, textarea {
+  outline: none;
+}
+
 .container {
   width: 80%;
   margin-left: auto;
@@ -550,4 +554,73 @@ button {
   .about main .ourteam .teamContainer .teammember {
     width: 100%;
   }
+}
+
+.contact header h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact .contactForm {
+  margin: 50px 30px;
+}
+
+.contact .contactForm form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact .contactForm form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.contact .contactForm form div label {
+  font-size: larger;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.contact .contactForm form div input {
+  padding: 10px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.contact .contactForm form div textarea {
+  resize: none;
+  font-size: large;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact .contactForm form input[type=submit] {
+  padding: 10px 40px;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: 400;
+  background-color: #f7a943;
+  color: #ffffff;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+
+.contact .contactForm form input[type=submit]:hover {
+  background-color: #b67929;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .contactForm form::after {
+  content: "";
+  display: table;
+  clear: right;
 }

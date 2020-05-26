@@ -127,6 +127,8 @@ function testimonialBigScreenFunction () {
 }
 
 
+window.addEventListener('resize', testimonialSlideFunction);
+
 function testimonialSlideFunction () {
   if(window.innerWidth < 769) {
     testimonialSmallScreenFunction();
