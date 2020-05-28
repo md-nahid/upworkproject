@@ -24,6 +24,7 @@
 		</div>
 	</div>
 
+	<!-- actual sidebar start -->
 	<div class="sidebar">
 			<div class="myImage">
 				<img src="image/profilepic.png" alt="My Image">
@@ -32,108 +33,61 @@
 				<ul>
 					<li><a href="#" id="home" class="menu menuActive">home</a></li>
 					<li><a href="#" id="about" class="menu">about</a></li>
-					<li><a href="#" id="services" class="menu">works</a></li>
-					<li><a href="#" id="portfolio" class="menu">portfolio</a></li>
-					<li><a href="#" id="testimonials" class="menu">blog</a></li>
+					<li><a href="#" id="work" class="menu">works</a></li>
+					<li><a href="#" id="services" class="menu">services</a></li>
+					<li><a href="#" id="blog" class="menu">blog</a></li>
 					<li><a href="#" id="contact" class="menu">message</a></li>
 				</ul>
 			</div>
+	</div>
+	<!-- actual sidebar end -->
+
+
+	<!-- main body part start -->
+
+	<main class="container">
+
+
+		<!-- home page start -->
+		<section class="home page displayPage" id="homePage">
 			<div class="social-icons">
 				<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
 				<a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a>
 				<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
 			</div>
-	</div>
-
-	<main class="container">
-		<!-- home page -->
-		<section class="home page displayPage" id="homePage">
-			<div>
-				<h1>welcome to future</h1>
-				<p>This Webpage Is Made With HTML CSS SCSS JACASCRIPT</p>
+			<div class="herotext">
+				<h1>Front-end Web Developer.</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis illo minus aliquam soluta nam</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis illo minus aliquam soluta nam</p>
+				<div class="home-page-btn">
+					<a class="primary-button" href="#">See More</a>
+					<a class="secondary-button" href="#">Download CV</a>
+				</div>
 			</div>
 		</section>
+		<!-- home page end -->
 
-		<!-- about page -->
+		<!-- about page start -->
 		<section class="about page" id="aboutPage">
-			<header>
-				<h1><span><i class="fas fa-book-open"></i></span> about us</h1>
+			<header class="aboutheader">
+				<div class="myimage">
+					<img src="image/malemember.png" alt="">
+				</div>
+				<div class="mytext">
+					<h2>About Me</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa laboriosam repudiandae distinctio dolor inventore esse, quis amet illum dicta porro commodi, neque praesentium pariatur ipsa veniam accusamus perferendis! Excepturi!</p>
+					<div class="about-me-btn">
+						<a class="primary-button" href="#">Hire Me</a>
+						<a class="secondary-button" href="#">Download CV</a>
+					</div>
+				</div>
 			</header>
 			<main>
-				<div class="somewordaboutus">
-					<h3>some words</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laudantium dolor nisi adipisci doloremque provident quod quia, atque, beatae blanditiis excepturi minus natus soluta in ipsum optio ab? Similique, eosin ipsum optio ab? Similique, eos.</p>
-				</div>
-				<div class="ourteam">
-					<header>
-						<h2>our team</h2>
-					</header>
-					<div class="teamContainer">
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/malemember.png" alt="This is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jhon Doe</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/femalemember.png" alt="this is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jane Smith</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/malemember.png" alt="This is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jhon Doe</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/femalemember.png" alt="This is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jane Smith</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<section class="ourcustomers">
-					<header>
-						<h2>our clints</h2>
-					</header>
-					<div class="customer">
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
-					</div>
-				</section>
+				<!-- testimonials slider section start -->
 				<section class="testimonials">
 					<header>
-						<h2>Testimonials</h2>
+						<h2>testimonials</h2>
 					</header>
 					<div class="testimonialscontainer">
 						<!-- testimonials slider button -->
@@ -192,29 +146,39 @@
 						</div>
 					</div>
 				</section>
+				<!-- testimonials slider section end -->
+
 			</main>
 		</section>
+		<!-- about page end -->
 
-		<!-- servicess page -->
+		<!-- work page start -->
+		<section class="myworks page" id="workPage">
+			<header>
+				<h1>welcome to work</h1>
+			</header>
+		</section>
+		<!-- work page end -->
+
+		<!-- services page start -->
 		<section class="service page" id="servicesPage">
 			<header>
 				<h1>welcome to service</h1>
 			</header>
 		</section>
+		<!-- services page end -->
 
-		<!-- portfolio page -->
-		<section class="portfolio page" id="portfolioPage">
-			<header>
-				<h1>welcome to portfolio</h1>
-			</header>
-		</section>
-		<!-- testimonials page -->
-		<section class="testimonials page" id="testimonialsPage">
+
+		<!-- blog page start -->
+		<section class="blog page" id="blogPage">
 			<header>
 				<h1>welcome to testimonials</h1>
 			</header>
 		</section>
-		<!-- contact page -->
+		<!-- blog page end -->
+
+
+		<!-- contact page start -->
 		<section class="contact page" id="contactPage">
 			<header>
 				<h1>Fell Free To Contact</h1>
@@ -222,7 +186,7 @@
 			<section class="contactForm">
 				<form>
 					<div>
-						<label for="FullName">Your Full Name : </label>
+						<label for="fullName">Your Full Name : </label>
 						<input type="text" id="fullName" placeholder="Your Name Please..." required>
 					</div>
 					<div>
@@ -236,8 +200,33 @@
 					<input type="submit" value="SUBMIT">
 				</form>
 			</section>
+			<section class="morecontact">
+				<div class="googlemap">
+					<iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJp4vhgO2qrTARa_zhxOAoLQ8&key=AIzaSyDVxuQQHXKcmqaZte8rNbCrHWnho0rqgxg" allowfullscreen></iframe>
+				</div>
+				<div class="phoneorlandline">
+					<h6>Contact</h6>
+
+					<p>+0123456789</p>
+					<p>some more contact</p>
+					<p>some more contact</p>
+					<p>some more contact</p>
+					<p>some more contact</p>
+					<div class="socialcontacts">
+						<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<p>This Shit Is Made By Me. <span>abcdefgh@gmail.com</span></p>
+			</footer>
 		</section>
+		<!-- contact page end -->
+
 	</main>
+	<!-- main body part end -->
 
 
 

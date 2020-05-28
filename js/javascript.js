@@ -23,20 +23,20 @@ for (let i = 0; i < menuItems.length; i++) {
     currentpage[0].className = currentpage[0].className.replace("displayPage", "");
     document.getElementById('aboutPage').classList.add("displayPage");
   }
+  if(this.id === "work") {
+    let currentpage = document.getElementsByClassName("displayPage");
+    currentpage[0].className = currentpage[0].className.replace("displayPage", "");
+    document.getElementById('workPage').classList.add("displayPage");
+  }
   if(this.id === "services") {
     let currentpage = document.getElementsByClassName("displayPage");
     currentpage[0].className = currentpage[0].className.replace("displayPage", "");
     document.getElementById('servicesPage').classList.add("displayPage");
   }
-  if(this.id === "portfolio") {
+  if(this.id === "blog") {
     let currentpage = document.getElementsByClassName("displayPage");
     currentpage[0].className = currentpage[0].className.replace("displayPage", "");
-    document.getElementById('portfolioPage').classList.add("displayPage");
-  }
-  if(this.id === "testimonials") {
-    let currentpage = document.getElementsByClassName("displayPage");
-    currentpage[0].className = currentpage[0].className.replace("displayPage", "");
-    document.getElementById('testimonialsPage').classList.add("displayPage");
+    document.getElementById('blogPage').classList.add("displayPage");
   }
   if(this.id === "contact") {
     let currentpage = document.getElementsByClassName("displayPage");
@@ -68,10 +68,31 @@ sidebar.addEventListener('click', () => {
 
 
 
+
+
+
+
+
+
+// about slider function script
+
+testimonialSlideFunction();
+
+function testimonialSlideFunction () {
+  const alltestimonials = document.querySelector('.alltestimonials');
+    alltestimonials.style.left = "0%";
+  if(window.innerWidth < 769) {
+    testimonialSmallScreenFunction();
+  }
+  else {
+    testimonialBigScreenFunction();
+  }
+}
+
+
 // testimonials button slider section script start
 function testimonialSmallScreenFunction () {
   const alltestimonials = document.querySelector('.alltestimonials');
-    alltestimonials.style.left = "0%";
   let increment = 0;
   const allRight = -300;
   const allLeft = 0;
@@ -99,8 +120,7 @@ function testimonialSmallScreenFunction () {
 
 // testimonials button slider section script end
 function testimonialBigScreenFunction () {
-    const alltestimonials = document.querySelector('.alltestimonials');
-      alltestimonials.style.left = "0%";
+  const alltestimonials = document.querySelector('.alltestimonials');
     let increment = 0;
     const right = -100;
     const left = 0;
@@ -127,15 +147,5 @@ function testimonialBigScreenFunction () {
 }
 
 
-window.addEventListener('resize', testimonialSlideFunction);
 
-function testimonialSlideFunction () {
-  if(window.innerWidth < 769) {
-    testimonialSmallScreenFunction();
-  }
-  if(window.innerWidth >= 769) {
-    testimonialBigScreenFunction();
-  }
-}
-testimonialSlideFunction();
 

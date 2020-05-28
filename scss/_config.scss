@@ -19,25 +19,31 @@ img {
 
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 input, textarea {
     outline: none;
+    border: none;
 }
 
 .container {
-    width: 80%;
+    width: calc( 100% - 300px);
     margin-left: auto;
-    position: relative;
+    overflow: hidden;
+    background-color: red;
+    padding: 5px;
     .page {
         display: none;
+        position: relative;
+        width: 200%;
+        left: 50%;
     }
     // pages active class and animation
     .displayPage {
-        position: absolute;
         display: block;
+        left: 0;
         animation: pageslide 0.5s 1;
-        padding: 0 20px;
         color: #ffffff;
         width: 100%;
     }
@@ -56,62 +62,97 @@ input, textarea {
 // some golabal style
 h1 {
     font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 600;
 }
 h2 {
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 400;
 }
 h3 {
     font-size: 25px;
     font-weight: 200;
-    text-transform: capitalize;
 }
 h4 {
     font-size: 20px;
     font-weight: 400;
-    text-transform: uppercase;
 }
 h5 {
+    font-size: 20px;
     font-weight: 100;
 }
+h6 {
+    font-size: 20px;
+    font-weight: 200;
+}
 p {
-    font-size: large;
+    font-size: 16px;
     line-height: 1.6;
-    letter-spacing: 1px;
+    font-weight: 100;
 }
-button {
-    font-size: larger;
-    font-weight: bold;
+.primary-button {
     padding: 10px 30px;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
+    border: 1px solid rgb(212, 6, 6);
+    border-radius: 5px;
+    background-color: #c40505;
     outline: none;
-    margin-top: 20px;
     cursor: pointer;
+    &:hover {
+        background-color: #c4050500;
+        border-radius: 0;
+        transition: 0.5s;
+    }
 }
+.secondary-button {
+    padding: 10px 30px;
+    border: 1px solid rgb(212, 6, 6);
+    border-radius: 5px;
+    background-color: #c4050500;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #c40505;
+        border-radius: 0;
+        transition: 0.5s;
+    }
+}
+
+// social incos style start
+div.social-icons {
+    position: absolute;
+    right: 0;
+    padding: 15px 30px;
+    a {
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        color: $nav-link-color;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+        width: 30px;
+        height: 30px;
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+        &:hover {
+            border-radius: 0;
+            color: $link-hover-color;
+            border-color: red;
+            transition: 0.3s;
+        }
+    }
+}
+// social incos style end
+
 
 @media screen and (max-width: 1024px) {
     .container {
         width: 100%;
         margin-left: 0;
+        padding: 0;
     }
     .displayPage {
-        margin-top: 72px;
+        padding-top: 100px;
     }
 }
 
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 30px;
-    }
-    p {
-        text-align: center;
-        letter-spacing: 0;
-        font-size: 19px;
-    }
-}

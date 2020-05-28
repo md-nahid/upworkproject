@@ -11,7 +11,5 @@ function formSubmitted(e) {
     let fullName = document.getElementById('fullName').value;
     let email = document.getElementById('email').value;
     let msg = document.getElementById('msg').value;
-    if (fullName != "" || email != "" || msg != "") {
         console.log(fullName, email, msg);
-    }
 }
