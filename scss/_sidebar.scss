@@ -4,7 +4,7 @@
     position: fixed;
     height: 100vh;
     background-color: $primary-background;
-    z-index: 99;
+    z-index: 999;
     .navbar {
         margin-top: 20px;
         ul {
@@ -62,7 +62,7 @@
     top: 0;
     color: $nav-link-color;
     background: $secondary-background-color;
-    z-index: 8;
+    z-index: 99;
     padding: 10px 10px;
     div {
     display: flex;
