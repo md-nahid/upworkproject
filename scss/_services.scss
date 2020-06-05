@@ -120,19 +120,19 @@
                 .price {
                     width: calc(100% / 3 - 30px);
                     margin: 0 15px;
-                    background-color: rgb(31, 24, 24);
+                    background-color: rgb(34, 54, 54);
                     border-radius: 10px;
                     text-align: center;
                     .priceicon {
                         width: 80px;
                         height: 80px;
-                        background-color: #000000;
+                        background-color: rgb(24, 37, 37);
                         margin: 0 auto;
                         padding: 5px;
                         border-radius: 50%;
                         transform: translateY(-50%);
                         &:hover p {
-                            border: 1px solid #00b900;
+                            border: 3px solid #00b900;
                         }
                         p {
                             height: 100%;
@@ -148,7 +148,7 @@
                     .package {
                         padding-bottom: 20px;
                         h3 {
-                            border-bottom: 5px solid #414141ec;
+                            border-bottom: 5px solid darkslategray;
                             padding-bottom: 15px;
                         }
                         h6 {
@@ -227,6 +227,19 @@
                 }
             }
             // working porcess setion style end
+            // pricing section style start
+            .pricing {
+                .pricecontainer {
+                    flex-wrap: wrap;
+                    .price {
+                        width: calc(100% - 30px);
+                        &:not(:first-child) {
+                            margin-top: 100px;
+                        }
+                    }
+                }
+            }
+            // pricing section style end
         }
     }
 }
