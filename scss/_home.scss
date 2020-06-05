@@ -34,12 +34,28 @@
     }
 }
 
+
+// ====================================
+// for laptop or less ten 1024px view
+// ====================================
 @media screen and (max-width: 1024px) {
     .home {
         height: 100vh;
     }
 }
 
+
+// ====================================
+// for Tablet or less ten 768px view
+// ====================================
+@media screen and (max-width: 768px) {
+    
+}
+
+
+// ====================================
+// for mobile or less ten 600px view
+// ====================================
 @media screen and (max-width: 600px) {
     .home {
         background-image: url();

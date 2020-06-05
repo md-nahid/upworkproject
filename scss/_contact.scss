@@ -1,6 +1,6 @@
 
 .contact {
-    background-color: red;
+    background-color: teal;
     header {
         h1 {
             text-align: center;
@@ -8,8 +8,8 @@
             font-weight: 400;
         }
     }
+    // main contact form style start
     .contactForm {
-        background-color: teal;
         border-radius: 5px;
         padding: 50px 30px;
         form {
@@ -29,12 +29,22 @@
                     font-size: large;
                     border: none;
                     border-radius: 5px;
+                    background-color: rgb(19, 92, 92);
+                    color: #ffffff;
+                    &::placeholder {
+                        color: rgb(67, 201, 201);
+                    }
                 }
                 textarea {
                     resize: none;
                     font-size: large;
                     padding: 10px;
                     border-radius: 5px;
+                    background-color: rgb(19, 92, 92);
+                    color: #ffffff;
+                    &::placeholder {
+                        color: rgb(67, 201, 201);
+                    }
                 }
             }
             input[type=submit] {
@@ -42,14 +52,13 @@
                 margin-top: 30px;
                 font-size: large;
                 font-weight: 400;
-                background-color: #f7a943;
-                color: #ffffff;
+                background-color: rgb(10, 43, 43);
+                color: rgb(94, 224, 224);
                 border: none;
                 float: right;
                 cursor: pointer;
                 &:hover {
-                    background-color: #b67929;
-                    transition: 0.3s;
+                    background-color: rgb(21, 83, 83);
                 }
             }
         &::after {
@@ -59,6 +68,8 @@
         }
         } 
     }
+    // main contact form style end
+    // more contact form style start
     .morecontact {
         display: flex;
         justify-content: space-evenly;
@@ -76,7 +87,7 @@
             width: 30%;
             padding-top: 30px;
             text-align: center;
-            background-color: teal;
+            background-color: rgb(19, 92, 92);
             .socialcontacts {
                 margin-top: 30px;
                 a {
@@ -97,10 +108,11 @@
             }
         }
     }
+    // more contact form style end
+    // contact footer section style start
     footer {
-        background-color: $primary-background;
+        background-color: rgb(19, 92, 92);
         margin-top: 20px;
-        border-radius: 5px;
         p {
             padding: 30px 100px;
             span {
@@ -109,6 +121,7 @@
             }
         }
     }
+    // contact footer section style end
 }
 
 

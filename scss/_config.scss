@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: $primary-background;
+    background-color: rgb(6, 36, 36);
 }
 
 img {
@@ -32,7 +32,7 @@ input, textarea {
     width: calc( 100% - 300px);
     margin-left: auto;
     overflow: hidden;
-    background-color: red;
+    background-color: rgb(6, 36, 36);
     padding: 5px;
     .page {
         display: none;
@@ -156,7 +156,7 @@ div.social-icons {
     right: 0;
     padding: 15px 30px;
     a {
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(31, 212, 212);
         border-radius: 5px;
         color: $nav-link-color;
         display: inline-flex;
@@ -171,7 +171,7 @@ div.social-icons {
         &:hover {
             border-radius: 0;
             color: $link-hover-color;
-            border-color: red;
+            border-color: rgb(31, 212, 212);
             transition: 0.3s;
         }
     }
@@ -179,6 +179,9 @@ div.social-icons {
 // social incos style end
 
 
+// ====================================
+// for Laptop or less then 1024px view
+// ====================================
 @media screen and (max-width: 1024px) {
     .container {
         width: 100%;
