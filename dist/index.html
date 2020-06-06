@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>nahid personal portfolio</title>
 
 	<!-- font-family from google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -16,14 +16,16 @@
 </head>
 <body>
 
-	<!-- for mobile menu sidebar-->
+	<!-- mobile menu topbar start -->
 	<div class="responsivesidebar">
 		<div>
 			<span id="pageName">home</span>
 			<span id="mobileMenuicon"><i class="fas fa-bars"></i></span>
 		</div>
 	</div>
+	<!-- mobile menu topbar end -->
 
+	<!-- sidebar start -->
 	<div class="sidebar">
 			<div class="myImage">
 				<img src="image/profilepic.png" alt="My Image">
@@ -32,108 +34,190 @@
 				<ul>
 					<li><a href="#" id="home" class="menu menuActive">home</a></li>
 					<li><a href="#" id="about" class="menu">about</a></li>
-					<li><a href="#" id="services" class="menu">works</a></li>
-					<li><a href="#" id="portfolio" class="menu">portfolio</a></li>
-					<li><a href="#" id="testimonials" class="menu">blog</a></li>
-					<li><a href="#" id="contact" class="menu">message</a></li>
+					<li><a href="#" id="work" class="menu">works</a></li>
+					<li><a href="#" id="services" class="menu">services</a></li>
+					<li><a href="#" id="blog" class="menu">blog</a></li>
+					<li><a href="#" id="contact" class="menu">contact</a></li>
 				</ul>
 			</div>
+	</div>
+	<!-- sidebar end -->
+
+	<!-- main body part start -->
+	<main class="container">
+		<!-- home page start -->
+		<section class="home page displayPage" id="homePage">
 			<div class="social-icons">
 				<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
 				<a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a>
 				<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
 			</div>
-	</div>
-
-	<main class="container">
-		<!-- home page -->
-		<section class="home page displayPage" id="homePage">
-			<div>
-				<h1>welcome to future</h1>
-				<p>This Webpage Is Made With HTML CSS SCSS JACASCRIPT</p>
+			<div class="herotext">
+				<h1>Front-end Web Developer.</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis illo minus aliquam soluta nam</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis illo minus aliquam soluta nam</p>
+				<div class="home-page-btn">
+					<a class="primary-button" href="#">See More</a>
+					<a class="secondary-button" href="#">Download CV</a>
+				</div>
 			</div>
 		</section>
-
-		<!-- about page -->
+		<!-- home page end -->
+		<!-- about page start -->
 		<section class="about page" id="aboutPage">
-			<header>
-				<h1><span><i class="fas fa-book-open"></i></span> about us</h1>
-			</header>
-			<main>
-				<div class="somewordaboutus">
-					<h3>some words</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laudantium dolor nisi adipisci doloremque provident quod quia, atque, beatae blanditiis excepturi minus natus soluta in ipsum optio ab? Similique, eosin ipsum optio ab? Similique, eos.</p>
+			<!-- about page header section start -->
+			<header class="aboutheader">
+				<div class="myimage">
+					<img src="image/profilepic.png" alt="My Picture">
 				</div>
-				<div class="ourteam">
-					<header>
-						<h2>our team</h2>
-					</header>
-					<div class="teamContainer">
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/malemember.png" alt="This is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jhon Doe</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/femalemember.png" alt="this is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jane Smith</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/malemember.png" alt="This is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jhon Doe</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
-						<div class="teammember">
-							<div class="memberImage">
-								<img src="image/femalemember.png" alt="This is our team member">
-							</div>
-							<div class="memberDetails">
-								<h4>Jane Smith</h4>
-								<p>Member Expertise</p>
-								<button>Details</button>
-							</div>
-						</div>
+				<div class="mytext">
+					<h2>About Me</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa laboriosam repudiandae distinctio dolor inventore esse, quis amet illum dicta porro commodi, neque praesentium pariatur ipsa veniam accusamus perferendis! Excepturi!</p>
+					<div class="about-me-btn">
+						<a class="primary-button" href="#">Hire Me</a>
+						<a class="secondary-button" href="#">Download CV</a>
 					</div>
 				</div>
-				<section class="ourcustomers">
-					<header>
-						<h2>our clints</h2>
-					</header>
-					<div class="customer">
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
-						<figure>
-							<img src="image/servicecamera.png" alt="Customer company logo">
-						</figure>
+			</header>
+			<!-- about page header section end -->
+			<main>
+				<!-- myskill section start -->
+				<section class="myskills">
+					<h3>My Skills .</h3>
+					<div class="skillcontainer">
+						<div class="skill">
+							<div class="skillname">
+								<span class="skillname">HTML</span><span class="skillpercent">0%</span>
+							</div>
+							<div class="skillbar">
+								<div class="skillfiller" id="html"></div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skillname">
+								<span class="skillname">CSS</span><span class="skillpercent">0%</span>
+							</div>
+							<div class="skillbar">
+								<div class="skillfiller" id="css"></div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skillname">
+								<span class="skillname">BOOSTRAP</span><span class="skillpercent">0%</span>
+							</div>
+							<div class="skillbar">
+								<div class="skillfiller" id="bootstrap"></div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skillname">
+								<span class="skillname">JAVASCRIPT</span><span class="skillpercent">0%</span>
+							</div>
+							<div class="skillbar">
+								<div class="skillfiller" id="javascript"></div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skillname">
+								<span class="skillname">JQUERY</span><span class="skillpercent">0%</span>
+							</div>
+							<div class="skillbar">
+								<div class="skillfiller" id="jquery"></div>
+							</div>
+						</div>
 					</div>
 				</section>
+				<!-- myskill section end -->
+				<!-- my education section start -->
+				<section class="education-employment">
+					<section class="education academic">
+						<header>
+							<h2>Education .</h2>
+						</header>
+						<section class="allcard">
+							<div class="card">
+								<span class="cardborder left"></span>
+								<span class="cardborder top"></span>
+								<span class="cardborder right"></span>
+								<span class="cardborder bottom"></span>
+								<div class="edudetails">
+									<h4>Education</h4>
+									<p class="date"><span><i class="far fa-calendar-alt"></i></span> 2016 - 2018 at somewhere</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia hic ipsam</p>
+								</div>
+							</div>
+							<div class="card">
+								<span class="cardborder left"></span>
+								<span class="cardborder top"></span>
+								<span class="cardborder right"></span>
+								<span class="cardborder bottom"></span>
+								<div class="edudetails">
+									<h4>Education</h4>
+									<p class="date"><span><i class="far fa-calendar-alt"></i></span> 2016 - 2018 at somewhere</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia hic ipsam</p>
+								</div>
+							</div>
+							<div class="card">
+								<span class="cardborder left"></span>
+								<span class="cardborder top"></span>
+								<span class="cardborder right"></span>
+								<span class="cardborder bottom"></span>
+								<div class="edudetails">
+									<h4>Education</h4>
+									<p class="date"><span><i class="far fa-calendar-alt"></i></span> 2016 - 2018 at somewhere</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia hic ipsam</p>
+								</div>
+							</div>
+						</section>
+					</section>
+					<section class="employment academic">
+						<header>
+							<h2>Employment .</h2>
+						</header>
+						<section class="allcard">
+							<div class="card">
+								<span class="cardborder left"></span>
+								<span class="cardborder top"></span>
+								<span class="cardborder right"></span>
+								<span class="cardborder bottom"></span>
+								<div class="edudetails">
+									<h4>Employment</h4>
+									<p class="date"><span><i class="far fa-calendar-alt"></i></span> 2016 - 2018 at somewhere</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia hic ipsam</p>
+								</div>
+							</div>
+							<div class="card">
+								<span class="cardborder left"></span>
+								<span class="cardborder top"></span>
+								<span class="cardborder right"></span>
+								<span class="cardborder bottom"></span>
+								<div class="edudetails">
+									<h4>Employment</h4>
+									<p class="date"><span><i class="far fa-calendar-alt"></i></span> 2016 - 2018 at somewhere</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia hic ipsam</p>
+								</div>
+							</div>
+							<div class="card">
+								<span class="cardborder left"></span>
+								<span class="cardborder top"></span>
+								<span class="cardborder right"></span>
+								<span class="cardborder bottom"></span>
+								<div class="edudetails">
+									<h4>Employment</h4>
+									<p class="date"><span><i class="far fa-calendar-alt"></i></span> 2016 - 2018 at somewhere</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia hic ipsam</p>
+								</div>
+							</div>
+						</section>
+					</section>
+				</section>
+				<!-- my education section end -->
+				<!-- testimonials slider section start -->
 				<section class="testimonials">
-					<header>
-						<h2>Testimonials</h2>
+					<header class="testimonialheader">
+						<p class="clinttest">TESTIMONIALS</p>
+						<h2>Words From Clints</h2>
 					</header>
 					<div class="testimonialscontainer">
 						<!-- testimonials slider button -->
@@ -192,43 +276,350 @@
 						</div>
 					</div>
 				</section>
+				<!-- testimonials slider section end -->
+				<!-- my interest section start -->
+				<section class="myinterest">
+					<header class="testimonialheader">
+						<p class="clinttest">MY INTERESTES</p>
+						<h2>Things I Like To Do</h2>
+					</header>
+					<div class="alinterest">
+						<div class="row">
+							<p class="things"><span><i class="fas fa-desktop"></i></span><span>Programming</span></p>
+							<p class="things"><span><i class="fas fa-book-reader"></i></span><span>Reading</span></p>
+							<p class="things"><span><i class="fas fa-globe"></i></span><span>Traveling</span></p>
+							<p class="things"><span><i class="fas fa-tree"></i></span><span>Gardening</span></p>
+						</div>
+						<div class="row">
+							<p class="things"><span><i class="fas fa-swimmer"></i></span><span>Swimming</span></p>
+							<p class="things"><span><i class="fas fa-umbrella-beach"></i></span><span>Vacation</span></p>
+							<p class="things"><span><i class="fas fa-utensils"></i></span><span>Eating</span></p>
+							<p class="things"><span><i class="fas fa-gamepad"></i></span><span>Video Games</span></p>
+						</div>
+					</div>
+				</section>
+				<!-- my interest section end -->
 			</main>
 		</section>
+		<!-- about page end -->
 
-		<!-- servicess page -->
+		<!-- work page start -->
+		<section class="myworks page" id="workPage">
+			<header>
+				<h2>My Works</h2>
+			</header>
+			<main>
+				<section class="workconainer">
+					<div class="workbtnall">
+						<button type="button" class="workbtn" data-filter="all" >All</button>
+						<button type="button" class="workbtn" data-filter=".web">Web</button>
+						<button type="button" class="workbtn" data-filter=".app">Apps</button>
+						<button type="button" class="workbtn" data-filter=".graphic">Graphic</button>
+					</div>
+					<div class="allwork">
+						<div class="gridcolumn">
+							<div class="work mix web">
+								<img src="image/img-1.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Website</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+							<div class="work mix graphic">
+								<img src="image/img-4.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Graphic</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+							<div class="work mix app">
+								<img src="image/img-8.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Application</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="gridcolumn">
+							<div class="work mix web">
+								<img src="image/img-4.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Website</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+							<div class="work mix app">
+								<img src="image/img-6.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Application</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+							<div class="work mix graphic">
+								<img src="image/img-7.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Graphic</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="gridcolumn">
+							<div class="work mix app">
+								<img src="image/img-2.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Application</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+							<div class="work mix web">
+								<img src="image/img-7.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Website</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+							<div class="work mix graphic">
+								<img src="image/img-9.jpg" alt="malemember">
+								<div class="overlay">
+									<p>Graphic</p>
+									<p><a href="#" target="_blank">Show</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</section>
+		<!-- work page end -->
+
+		<!-- services page start -->
 		<section class="service page" id="servicesPage">
 			<header>
-				<h1>welcome to service</h1>
+				<h2>Services</h2>
 			</header>
+			<main>
+				<!-- service catagory section start -->
+				<section class="servicecatagory">
+					<div class="typeofservice">
+						<div class="serviceicon"><span><i class="fas fa-desktop"></i></span></div>
+						<h4>Services Name</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="typeofservice">
+						<div class="serviceicon"><span><i class="fas fa-cogs"></i></span></div>
+						<h4>Services Name</h4>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="typeofservice">
+						<div class="serviceicon"><span><i class="fas fa-mobile-alt"></i></span></div>
+						<h4>Services Name</h4>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="typeofservice">
+						<div class="serviceicon"><span><i class="fas fa-medkit"></i></span></div>
+						<h4>Services Name</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+				</section>
+				<!-- service catagory section end -->
+				<!-- working process section start -->
+				<section class="workingprocess">
+					<div class="processcontainer">
+						<div class="processcol firstcol">
+							<div class="processrow">
+								<p class="number">01</p>
+								<h4>Process</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							</div>
+							<div class="processrow">
+								<p class="number">04</p>
+								<h4>Process</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							</div>
+						</div>
+						<div class="processcol secondcol">
+							<div class="processcircle">
+								<div class="processsubcircle">
+									<p>Working </p>
+									<p>Process</p>
+								</div>
+							</div>
+						</div>
+						<div class="processcol thirdcol">
+							<div class="processrow">
+								<p class="number">02</p>
+								<h4>Process</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							</div>
+							<div class="processrow">
+								<p class="number">03</p>
+								<h4>Process</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- working process section end -->
+				<!-- pricing section start -->
+				<section class="pricing">
+					<header>
+						<h2>Price</h2>
+					</header>
+					<div class="pricecontainer">
+						<div class="price basic">
+							<div class="priceicon">
+								<p><i class="fas fa-user"></i></p>
+							</div>
+							<div class="package">
+								<h3>Basic</h3>
+								<h6><sup><i class="fas fa-dollar-sign"></i></sup> 25 Month</h6>
+								<div class="packagecontent">
+									<p>Web Design</p>
+									<p>Web Develop</p>
+									<p><del>Responsive Design</del></p>
+									<p><del>Game Development</del></p>
+								</div>
+								<button class="pricebtn">Buy now</button>
+							</div>
+						</div>
+						<div class="price standerd">
+							<div class="priceicon">
+								<p><i class="fas fa-briefcase"></i></p>
+							</div>
+							<div class="package">
+								<h3>Standard</h3>
+								<h6><sup><i class="fas fa-dollar-sign"></i></sup> 25 Month</h6>
+								<div class="packagecontent">
+									<p>Web Design</p>
+									<p>Web Develop</p>
+									<p>Responsive Design</p>
+									<p><del>Game Development</del></p>
+								</div>
+								<button class="pricebtn">Buy now</button>
+							</div>
+						</div>
+						<div class="price premium">
+							<div class="priceicon">
+								<p><i class="fas fa-globe"></i></p>
+							</div>
+							<div class="package">
+								<h3>Premium</h3>
+								<h6><sup><i class="fas fa-dollar-sign"></i></sup> 25 Month</h6>
+								<div class="packagecontent">
+									<p>Web Design</p>
+									<p>Web Develop</p>
+									<p>Responsive Design</p>
+									<p>Game Development</p>
+								</div>
+								<button class="pricebtn">Buy now</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- pricing section end -->
+			</main>
 		</section>
+		<!-- services page end -->
 
-		<!-- portfolio page -->
-		<section class="portfolio page" id="portfolioPage">
+
+		<!-- blog page start -->
+		<section class="blog page" id="blogPage">
 			<header>
-				<h1>welcome to portfolio</h1>
+				<h2>My Blogs</h2>
 			</header>
+			<main>
+				<section class="blogcontainer">
+					<div class="blog">
+						<img src="image/blog-img1.jpg" alt="Web page photo">
+						<h5><a href="#">Blog Title Goes Here</a></h5>
+						<p class="blogtext">Lorem ipsum dolor sit amet. <a href="#">Read more</a></p>
+					</div>
+					<div class="blog">
+						<img src="image/blog-img2.jpg" alt="Web page photo">
+						<h5><a href="#">Blog Title Goes Here</a></h5>
+						<p class="blogtext">Lorem ipsum dolor sit amet. <a href="#">Read more</a></p>
+					</div>
+					<div class="blog">
+						<img src="image/blog-img3.jpg" alt="Web page photo">
+						<h5><a href="#">Blog Title Goes Here</a></h5>
+						<p class="blogtext">Lorem ipsum dolor sit amet. <a href="#">Read more</a></p>
+					</div>
+					<div class="blog">
+						<img src="image/blog-img4.jpeg" alt="Web page photo">
+						<h5><a href="#">Blog Title Goes Here</a></h5>
+						<p class="blogtext">Lorem ipsum dolor sit amet. <a href="#">Read more</a></p>
+					</div>
+				</section>
+			</main>
 		</section>
-		<!-- testimonials page -->
-		<section class="testimonials page" id="testimonialsPage">
-			<header>
-				<h1>welcome to testimonials</h1>
-			</header>
-		</section>
-		<!-- contact page -->
+		<!-- blog page end -->
+
+		<!-- contact page start -->
 		<section class="contact page" id="contactPage">
 			<header>
 				<h1>Fell Free To Contact</h1>
 			</header>
+			<section class="contactForm">
+				<form>
+					<div>
+						<label for="fullName">Your Full Name : </label>
+						<input type="text" id="fullName" placeholder="Your Name Please..." required>
+					</div>
+					<div>
+						<label for="email">Your Email : </label>
+						<input type="email" id="email" placeholder="Your Email Please..." required>
+					</div>
+					<div>
+						<label for="msg">Massege :</label>
+						<textarea id="msg" cols="30" rows="10" placeholder="Say Anything You Think About us..." required></textarea>
+					</div>
+					<input type="submit" value="SUBMIT">
+				</form>
+			</section>
+			<section class="morecontact">
+				<div class="googlemap">
+					<iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJp4vhgO2qrTARa_zhxOAoLQ8&key=AIzaSyDVxuQQHXKcmqaZte8rNbCrHWnho0rqgxg" allowfullscreen></iframe>
+				</div>
+				<div class="phoneorlandline">
+					<h6>Contact</h6>
+
+					<p>+0123456789</p>
+					<p>some more contact</p>
+					<p>some more contact</p>
+					<p>some more contact</p>
+					<p>some more contact</p>
+					<div class="socialcontacts">
+						<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<p>This Shit Is Made By Me. <span>abcdefgh@gmail.com</span></p>
+			</footer>
 		</section>
+		<!-- contact page end -->
+
 	</main>
+	<!-- main body part end -->
 
 
 
+<!-- jquery cdn link -->
+	<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
 
-
-
-
-	
+  <!-- my handwritten javascript codes -->
+	<script src="js/work.js"></script>
+	<script src="js/myskills.js"></script>
+	<script src="js/contactform.js"></script>
 	<script src="js/javascript.js"></script>
 	
 </body>
