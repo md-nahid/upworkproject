@@ -1,6 +1,5 @@
 
 .contact {
-    background-color: teal;
     header {
         h1 {
             text-align: center;
@@ -114,7 +113,7 @@
         background-color: rgb(19, 92, 92);
         margin-top: 20px;
         p {
-            padding: 30px 100px;
+            padding: 30px 80px;
             span {
                 text-decoration: underline;
                 font-style: italic;
@@ -125,6 +124,17 @@
 }
 
 
+// ==================================
+// for Laptop or less then 1024px view
+// ==================================
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+// ==================================
+// for Tablet or less then 768px view
+// ==================================
 @media screen and (max-width: 768px) {
     .contact {
         header {
@@ -141,8 +151,8 @@
             justify-content: center;
             margin-top: 0;
             .googlemap {
-                width: calc( 100% - 40px );
-                padding: 20px;
+                width: 100%;
+                padding: 0;
             }
             .phoneorlandline {
                 width: 100%;
@@ -153,6 +163,9 @@
 }
 
 
+// ==================================
+// for Mobile or less then 600px view
+// ==================================
 @media screen and (max-width: 600px) {
     .contact {
         .contactForm {
@@ -163,7 +176,6 @@
                 input[type=submit] {
                     margin-top: 5px;
                 }
-                
             } 
         }
     }

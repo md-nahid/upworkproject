@@ -149,3 +149,8 @@ function testimonialBigScreenFunction () {
 
 
 
+
+// some jquery function for work section
+$(document).ready(function() {
+  var mixer = mixitup('.allwork');
+});

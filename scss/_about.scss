@@ -1,6 +1,5 @@
 
 .about {
-    background-color: teal;
     // about header section style start
     .aboutheader {
         display: flex;
@@ -305,9 +304,11 @@
             // education section style start
             .education-employment {
                 flex-direction: column;
+                margin: 50px 10px;
                 margin-bottom: 0;
                 .academic {
-                    width: calc(100% - 40px);
+                    width: 100%;
+                    margin: 0;
                     &:last-child {
                         margin-top: 50px; 
                     }

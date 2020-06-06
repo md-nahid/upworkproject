@@ -1,9 +1,134 @@
 
 
 .myworks {
-    background-color: teal;
+    // my works header section style start
     header {
         text-align: center;
-        padding: 50px 0;
+        padding-top: 50px;
+    }
+    // my works header section style end
+    main {
+        // work container section style start
+        .workconainer {
+            // work button section style start
+            .workbtnall {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 30px 0;
+                .workbtn {
+                    padding: 20px 30px;
+                    background-color: rgb(15, 63, 63);
+                    border: none;
+                    color: #ffffff;
+                    font-size: large;
+                    border-radius: 15px;
+                    outline: none;
+                    &:hover {
+                        background-color: rgb(44, 160, 160);
+                        cursor: pointer;
+                    }
+                }
+                .mixitup-control-active {
+                    background-color: rgb(44, 160, 160);
+                }
+            }
+            // work button section style end
+            // all work section style start
+            .allwork {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 10px;
+                padding: 20px;
+                .work {
+                    position: relative;
+                    margin: 10px 0;
+                    img {
+                        border-radius: 10px;
+                        display: block;
+                    }
+                    .overlay {
+                        position: absolute;
+                        width: 100%;
+                        height: 0;
+                        bottom: 100%;
+                        background-color: rgba(121, 214, 34, 0.644);
+                        overflow: hidden;
+                        transition: 0.5s ease;
+                        border-radius: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        p {
+                            background-color: rgb(22, 73, 73);
+                            color: #ffffff;
+                            margin: 15px;
+                            padding: 10px;
+                            border-radius: 5px;
+                            &:hover {
+                                background-color: rgb(36, 158, 158);
+                            }
+                            &:last-child:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    &:hover .overlay {
+                        bottom: 0;
+                        height: 100%;
+                    }
+                }
+            }
+            // all work section style end
+        }
+        // work container section style end
+    }
+}
+
+
+// ==================================
+// for Tablet or less then 768px view
+// ==================================
+@media screen and (max-width: 768px) {
+    
+}
+
+
+// ==================================
+// for Mobile or less then 600px view
+// ==================================
+@media screen and (max-width: 600px) {
+    .myworks {
+        main {
+            // work container section style start
+            .workconainer {
+                // work button section style start
+                .workbtnall {
+                    .workbtn {
+                        padding: 10px 15px;
+                    }
+                }
+                // work button section style end
+                // all work section style start
+                .allwork {
+                    grid-template-columns: auto;
+                    grid-gap: 0;
+                    .gridcolumn {
+                        .work {
+                            position: relative;
+                            margin: 10px 0;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                // all work section style end
+            }
+            // work container section style end
+        }
     }
 }

@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(6, 36, 36);
+    background-color: teal;
 }
 
 img {
@@ -32,8 +32,8 @@ input, textarea {
     width: calc( 100% - 300px);
     margin-left: auto;
     overflow: hidden;
-    background-color: rgb(6, 36, 36);
     padding: 5px;
+    background-color: rgb(14, 71, 71);
     .page {
         display: none;
         position: relative;
@@ -47,6 +47,7 @@ input, textarea {
         animation: pageslide 0.5s 1;
         color: #ffffff;
         width: 100%;
+        background-color: teal;
     }
     @keyframes pageslide {
         from {
