@@ -10,7 +10,5 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://md-nahid/github.io/upworkproject",
-  "dependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "dependencies": {}
 }
