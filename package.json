@@ -9,6 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://md-nahid/github.io/upworkproject",
-  "dependencies": {}
+  "homepage": "https://md-nahid.github.io/upworkproject",
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
 }
