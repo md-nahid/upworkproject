@@ -47,6 +47,7 @@ input, textarea {
   animation: pageslide 0.5s 1;
   color: #ffffff;
   width: 100%;
+  background-color: teal;
 }
 
 @keyframes pageslide {
