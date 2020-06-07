@@ -125,7 +125,9 @@ p {
 // service price button
 .pricebtn {
     padding: 10px 25px;
-    border: 1px solid #ffffff;
+    border: none;
+    border-left: 3px solid #1ebd33;
+    border-right: 3px solid #1ebd33;
     background-color: #221f1fc7;
     color: #ffffff;
     font-size: large;
@@ -135,9 +137,6 @@ p {
     outline: none;
     &:hover {
         color: #1ebd33;
-        border: none;
-        border-left: 3px solid #1ebd33;
-        border-right: 3px solid #1ebd33;
     }
 }
 
